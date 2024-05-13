@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.card-container {
+  padding: 25px;
+  background-color: white;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.658) 0px 7px 29px 0px;
+}
+
+.title {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 32px;
+  padding-top: 10px;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+}
+
+.toss-coin {
+  color: #a35200;
+  background-color: #f9d423;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 10px;
+  margin: 20px;
+  border-width: 0px;
+}
+.result-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.count-txt {
+  padding: 10px;
+  font-size: 15px;
+  margin: 0px;
+  font-weight: 500;
+}
